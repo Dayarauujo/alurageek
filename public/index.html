@@ -1,0 +1,47 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">  <title>ALURA GEEK</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header class="logo-alura">
+    <img src="./assets/Logo.svg" alt="logo alurageek">
+  </header>
+
+  <main class="acao-produtos">
+    <div>
+
+      <h2>Meus produtos:</h2>
+      <section id="produtos">
+      </section>
+    </div>
+    <form id="formulario">
+      <h2>Adicionar produto:</h2>
+      <div class="incluir-produtos">
+        <input placeholder="nome...">
+        <input placeholder="preço...">
+        <input placeholder="imagem...">
+      </div>
+      <div class="botoes">
+        <button onclick="adicionarProduto(event)">Enviar</button>
+        <button>Limpar</button>
+      </div>
+    </form>
+  </main>
+<footer class="Rodape">
+  <div>
+    <img src="./assets/Logo.svg" alt="">
+  </div>
+  <div >
+  <p> Desenvolvido por Day Araujo</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

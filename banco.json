@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": "49e9",
+      "nome": "One Piece Manga vol 1",
+      "preco": "25",
+      "imagem": "https://m.media-amazon.com/images/I/716EGgqzyOL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "a023",
+      "nome": "SWITCH NOVINHO",
+      "preco": "1500",
+      "imagem": "https://m.media-amazon.com/images/I/51Gz7IimgoL.jpg"
+    },
+    {
+      "id": "b2fe",
+      "nome": "Play station 2 ",
+      "preco": "200",
+      "imagem": "https://s2-techtudo.glbimg.com/4y3nejQcBv7GeSvfrGsLIP3MIp8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/q/E/zZjJhTRlqeGY8aX3sg7w/playstation-2-ps2-20-anos-fatos-curiosos-console-sony.jpg"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #aeb1ee;
+  --button-color:#4b5287;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.logo-alura{
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  padding: 20px;
+}
+
+.acao-produtos{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  h2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    margin-bottom:60px ;
+  }
+
+  section#produtos {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .acao-produtos {
+    flex-direction: column-reverse;
+    margin: 80px 10%;
+    gap: 40px
+  }
+}
+
+.produto{
+  background-color: var(--main-color);
+  border:3px solid black ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  
+  h3{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: "IBM Plex Mono", monospace;
+  }
+  span{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.imagem-produto{
+  height: 176px;
+  width: 176px;
+  object-fit: cover;
+}
+
+.incluir-produtos{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+  input{
+    border: 3px solid var(--button-color);
+    border-radius: 30px;
+    height: 58px;
+    padding-left:16px ;
+    font-family: "IBM Plex Mono", monospace;
+    
+  }
+  
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  margin-top:50px  ;
+
+  button:first-child{
+    background-color: var(--button-color);
+    color: white
+
+  }
+
+  button {
+    background-color: white;
+    border:3px solid var(--button-color);
+    border-radius:15px ;
+    padding:8px 42px;
+    color: var(--button-color);
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+  }
+}
+
+.rodape {
+  background-color: var(--main-color);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape p {
+  font-family: "IBM Plex Mono", monospace;
+    
+}
+
+.delete-produto {
+  cursor: pointer;
+}
