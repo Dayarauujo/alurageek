@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "public/index.html",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["db.json"]
+        "includeFiles": ["banco.json"]
       }
     }
   ],
